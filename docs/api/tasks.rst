@@ -92,3 +92,9 @@ Kinetic energy regularization task
 
 .. automodule:: mink.tasks.kinetic_energy_regularization_task
     :members:
+
+Manipulability task
+-------------------
+
+.. automodule:: mink.tasks.manipulability_task
+    :members:

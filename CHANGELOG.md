@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+### Added
+
+- `ManipulabilityTask`: a linear QP term that maximizes the Yoshikawa manipulability or the inverse condition number of a frame Jacobian over a chosen set of DOFs. The gradient is analytic and supports hinge, slide, ball and free joints. See `examples/mobile_tidybot_manipulability.py`.
+
 ### Changed
 
 - **Breaking**: `RelativeFrameTask.compute_error` and `compute_jacobian` now follow the `FrameTask` sign convention. IK solutions are unchanged, and a world-rooted relative task now matches `FrameTask` exactly.

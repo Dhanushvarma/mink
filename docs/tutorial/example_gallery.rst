@@ -116,6 +116,14 @@ Mobile-base pose tracking with Stanford's TidyBot platform.
 
 `View source code <https://github.com/kevinzakka/mink/blob/main/examples/mobile_tidybot.py>`__
 
+TidyBot with manipulability maximization
+----------------------------------------
+
+TidyBot holds an end-effector pose while :class:`~mink.ManipulabilityTask` moves
+the arm to a better conditioned posture. The base drives to make room for it.
+
+`View source code <https://github.com/Dhanushvarma/mink/blob/main/examples/mobile_tidybot_manipulability.py>`__
+
 Humanoid
 --------
 
