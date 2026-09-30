@@ -39,6 +39,7 @@ from .tasks import DofFreezingTask as DofFreezingTask
 from .tasks import EqualityConstraintTask as EqualityConstraintTask
 from .tasks import FrameTask as FrameTask
 from .tasks import KineticEnergyRegularizationTask as KineticEnergyRegularizationTask
+from .tasks import LineOfSightTask as LineOfSightTask
 from .tasks import LookAtTask as LookAtTask
 from .tasks import Objective as Objective
 from .tasks import PostureTask as PostureTask

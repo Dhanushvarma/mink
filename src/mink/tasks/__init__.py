@@ -9,6 +9,7 @@ from .frame_task import FrameTask as FrameTask
 from .kinetic_energy_regularization_task import (
     KineticEnergyRegularizationTask as KineticEnergyRegularizationTask,
 )
+from .line_of_sight_task import LineOfSightTask as LineOfSightTask
 from .look_at_task import LookAtTask as LookAtTask
 from .posture_task import PostureTask as PostureTask
 from .relative_frame_task import RelativeFrameTask as RelativeFrameTask
