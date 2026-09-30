@@ -10,6 +10,7 @@ from .kinetic_energy_regularization_task import (
     KineticEnergyRegularizationTask as KineticEnergyRegularizationTask,
 )
 from .look_at_task import LookAtTask as LookAtTask
+from .manipulability_task import ManipulabilityTask as ManipulabilityTask
 from .posture_task import PostureTask as PostureTask
 from .relative_frame_task import RelativeFrameTask as RelativeFrameTask
 from .task import BaseTask as BaseTask
