@@ -37,6 +37,7 @@ from .tasks import ComTask as ComTask
 from .tasks import DampingTask as DampingTask
 from .tasks import DofFreezingTask as DofFreezingTask
 from .tasks import EqualityConstraintTask as EqualityConstraintTask
+from .tasks import FieldOfViewClearanceTask as FieldOfViewClearanceTask
 from .tasks import FrameTask as FrameTask
 from .tasks import KineticEnergyRegularizationTask as KineticEnergyRegularizationTask
 from .tasks import LineOfSightTask as LineOfSightTask

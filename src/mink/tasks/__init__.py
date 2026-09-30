@@ -5,6 +5,9 @@ from .com_task import ComTask as ComTask
 from .damping_task import DampingTask as DampingTask
 from .dof_freezing_task import DofFreezingTask as DofFreezingTask
 from .equality_constraint_task import EqualityConstraintTask as EqualityConstraintTask
+from .field_of_view_clearance_task import (
+    FieldOfViewClearanceTask as FieldOfViewClearanceTask,
+)
 from .frame_task import FrameTask as FrameTask
 from .kinetic_energy_regularization_task import (
     KineticEnergyRegularizationTask as KineticEnergyRegularizationTask,
