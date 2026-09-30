@@ -116,6 +116,16 @@ Mobile-base pose tracking with Stanford's TidyBot platform.
 
 `View source code <https://github.com/kevinzakka/mink/blob/main/examples/mobile_tidybot.py>`__
 
+TidyBot with self-occlusion avoidance
+-------------------------------------
+
+TidyBot reaches for a target while :class:`~mink.LineOfSightTask` keeps its arm
+off the line from the base camera to that target.
+:class:`~mink.FieldOfViewClearanceTask` can be switched on to keep the arm out of
+the image altogether.
+
+`View source code <https://github.com/Dhanushvarma/mink/blob/main/examples/mobile_tidybot_self_occlusion.py>`__
+
 Humanoid
 --------
 

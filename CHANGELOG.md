@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+### Added
+
+- `LineOfSightTask` and `FieldOfViewClearanceTask`: soft tasks that keep chosen robot geoms from blocking a MuJoCo camera. The first keeps them away from the line between the camera and a target point. The second keeps them out of the camera's field of view, read from its `fovy` and `resolution` or its intrinsics. See `examples/mobile_tidybot_self_occlusion.py`.
+
 ### Changed
 
 - **Breaking**: `RelativeFrameTask.compute_error` and `compute_jacobian` now follow the `FrameTask` sign convention. IK solutions are unchanged, and a world-rooted relative task now matches `FrameTask` exactly.
