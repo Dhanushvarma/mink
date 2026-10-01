@@ -5,10 +5,14 @@ from .com_task import ComTask as ComTask
 from .damping_task import DampingTask as DampingTask
 from .dof_freezing_task import DofFreezingTask as DofFreezingTask
 from .equality_constraint_task import EqualityConstraintTask as EqualityConstraintTask
+from .field_of_view_clearance_task import (
+    FieldOfViewClearanceTask as FieldOfViewClearanceTask,
+)
 from .frame_task import FrameTask as FrameTask
 from .kinetic_energy_regularization_task import (
     KineticEnergyRegularizationTask as KineticEnergyRegularizationTask,
 )
+from .line_of_sight_task import LineOfSightTask as LineOfSightTask
 from .look_at_task import LookAtTask as LookAtTask
 from .manipulability_task import ManipulabilityTask as ManipulabilityTask
 from .posture_task import PostureTask as PostureTask

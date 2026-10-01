@@ -7,6 +7,7 @@ All notable changes to this project will be documented in this file.
 ### Added
 
 - `ManipulabilityTask`: a linear QP term that maximizes the Yoshikawa manipulability or the inverse condition number of a frame Jacobian over a chosen set of DOFs. The gradient is analytic and supports hinge, slide, ball and free joints. See `examples/mobile_tidybot_manipulability.py`.
+- `LineOfSightTask` and `FieldOfViewClearanceTask`: soft tasks that keep chosen robot geoms from blocking a MuJoCo camera. The first keeps them away from the line between the camera and a target point. The second keeps them out of the camera's field of view, read from its `fovy` and `resolution` or its intrinsics. See `examples/mobile_tidybot_self_occlusion.py`.
 
 ### Changed
 

@@ -60,6 +60,18 @@ Axis-align task
 .. automodule:: mink.tasks.axis_align_task
     :members:
 
+Line-of-sight task
+------------------
+
+.. automodule:: mink.tasks.line_of_sight_task
+    :members:
+
+Field-of-view clearance task
+----------------------------
+
+.. automodule:: mink.tasks.field_of_view_clearance_task
+    :members:
+
 Equality constraint task
 ------------------------
 

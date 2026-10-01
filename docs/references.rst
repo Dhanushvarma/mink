@@ -16,4 +16,6 @@ References
 
 .. [MuJoCoEqualityConstraints] MuJoCo Documentation: Constraint Model. https://mujoco.readthedocs.io/en/stable/computation/index.html#constraint-model
 
+.. [VisibilityMax] He, K., Newbury, R., Tran, T., Haviland, J., Burgess-Limerick, B., Kulić, D., Corke, P., Cosgun, A. (2022). Visibility maximization controller for robotic manipulation. https://arxiv.org/abs/2202.12557
+
 .. [Yoshikawa] Yoshikawa, T. (1985). Manipulability of robotic mechanisms. The International Journal of Robotics Research, 4(2), 3-9.
