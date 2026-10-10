@@ -1,6 +1,7 @@
 """Kinematic tasks."""
 
 from .axis_align_task import AxisAlignTask as AxisAlignTask
+from .clearance_task import ClearanceTask as ClearanceTask
 from .com_task import ComTask as ComTask
 from .damping_task import DampingTask as DampingTask
 from .dof_freezing_task import DofFreezingTask as DofFreezingTask

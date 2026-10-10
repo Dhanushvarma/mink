@@ -1,5 +1,6 @@
 """Kinematic limits."""
 
+from .barrier_limit import BarrierLimit as BarrierLimit
 from .collision_avoidance_limit import (
     CollisionAvoidanceLimit as CollisionAvoidanceLimit,
 )

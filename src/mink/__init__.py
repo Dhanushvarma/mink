@@ -1,5 +1,12 @@
 """mink: MuJoCo inverse kinematics."""
 
+from .barriers import BarrierRows as BarrierRows
+from .barriers import DistanceBarrier as DistanceBarrier
+from .barriers import GeomCapsules as GeomCapsules
+from .barriers import GeomPairBarrier as GeomPairBarrier
+from .barriers import PointObstacleBarrier as PointObstacleBarrier
+from .barriers import fit_body_capsule as fit_body_capsule
+from .barriers import fit_capsule as fit_capsule
 from .configuration import Configuration as Configuration
 from .constants import FRAME_TO_ENUM as FRAME_TO_ENUM
 from .constants import FRAME_TO_JAC_FUNC as FRAME_TO_JAC_FUNC
@@ -24,6 +31,7 @@ from .exceptions import UnsupportedFrame as UnsupportedFrame
 from .lie import SE3 as SE3
 from .lie import SO3 as SO3
 from .lie import MatrixLieGroup as MatrixLieGroup
+from .limits import BarrierLimit as BarrierLimit
 from .limits import CollisionAvoidanceLimit as CollisionAvoidanceLimit
 from .limits import ConfigurationLimit as ConfigurationLimit
 from .limits import Constraint as Constraint
@@ -33,6 +41,7 @@ from .limits import VelocityLimit as VelocityLimit
 from .solve_ik import build_ik as build_ik
 from .solve_ik import solve_ik as solve_ik
 from .tasks import AxisAlignTask as AxisAlignTask
+from .tasks import ClearanceTask as ClearanceTask
 from .tasks import ComTask as ComTask
 from .tasks import DampingTask as DampingTask
 from .tasks import DofFreezingTask as DofFreezingTask
