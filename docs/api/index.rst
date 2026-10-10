@@ -14,6 +14,7 @@ Complete API documentation for all modules in ``mink``.
    configuration
    tasks
    limits
+   barriers
    inverse_kinematics
    utilities
    lie

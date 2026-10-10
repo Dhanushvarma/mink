@@ -116,6 +116,16 @@ Mobile-base pose tracking with Stanford's TidyBot platform.
 
 `View source code <https://github.com/kevinzakka/mink/blob/main/examples/mobile_tidybot.py>`__
 
+TidyBot with obstacle barriers
+------------------------------
+
+TidyBot reaches for a target while :class:`~mink.BarrierLimit` and
+:class:`~mink.ClearanceTask` keep its arm clear of a ball that it only knows as
+noisy surface points, fed to a :class:`~mink.PointObstacleBarrier` on capsules
+fitted to the arm's meshes with :func:`~mink.fit_body_capsule`.
+
+`View source code <https://github.com/Dhanushvarma/mink/blob/main/examples/mobile_tidybot_obstacle_barrier.py>`__
+
 Humanoid
 --------
 

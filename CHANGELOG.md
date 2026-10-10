@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+### Added
+
+- Distance barriers (`mink.barriers`): `DistanceBarrier` turns signed robot-obstacle distances into barrier rows, cached per configuration. `PointObstacleBarrier` measures from robot geoms, seen as capsules, to obstacle spheres given as data, such as range-sensor returns. `GeomPairBarrier` uses `mj_geomDistance` on geom pairs. `fit_body_capsule` fits an enclosing capsule to a body's meshes, for proxy geoms.
+- `BarrierLimit`: hard control-barrier constraints on a distance barrier, `dh/dt >= -gain * alpha(h)` on `h = d - d_min`, applied over the step as in pink's barriers. A graded `relaxation` lets a failed solve be retried with a slower or no retreat.
+- `ClearanceTask`: the soft counterpart, a cost that ramps in below a preferred distance. See `examples/mobile_tidybot_obstacle_barrier.py`.
+
 ### Changed
 
 - **Breaking**: `RelativeFrameTask.compute_error` and `compute_jacobian` now follow the `FrameTask` sign convention. IK solutions are unchanged, and a world-rooted relative task now matches `FrameTask` exactly.

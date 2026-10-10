@@ -72,6 +72,12 @@ DOF freezing task
 .. automodule:: mink.tasks.dof_freezing_task
     :members:
 
+Clearance task
+--------------
+
+.. automodule:: mink.tasks.clearance_task
+    :members:
+
 Regularization Tasks
 ====================
 

@@ -36,3 +36,9 @@ Collision avoidance limits
 
 .. automodule:: mink.limits.collision_avoidance_limit
    :members:
+
+Barrier limits
+==============
+
+.. automodule:: mink.limits.barrier_limit
+   :members:
